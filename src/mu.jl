@@ -26,6 +26,13 @@ Table = Dict([
     :o => :/
     :q => :\
     :u => :-
+    # in Runes
+    :ᚨ => :+
+    :ᛖ => :^
+    :ᛁ => :*
+    :ᛟ => :/
+    :ᛩ => :\
+    :ᚢ => :-
 ])
 
 a(glyphs, token) = token
@@ -51,5 +58,25 @@ t(glyphs, token) = (:($token[2:end]))
 u(glyphs, token) = :(x = $token; UnitRange(x...))
 w(glyphs, token) = (n = Int(first("$(pop!(glyphs))")); :($token, $n))
 !(glyphs::Vector{Symbol}, token) = (:())
+
+# in Runes
+ᚨ = a
+ᛒ = b
+ᛞ = d
+ᛖ = e
+ᚠ = f
+ᚷ = g
+ᚻ = h
+ᚲ = k
+ᛚ = l
+ᛗ = m
+ᚾ = n
+ᛈ = p
+ᛩ = q
+ᚱ = r
+ᛋ = s
+ᛏ = t
+ᚢ = u
+ᚹ = w
 
 end
