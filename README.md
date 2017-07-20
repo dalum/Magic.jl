@@ -6,6 +6,7 @@ Magic is a package that allows you to write `using Magic` anywhere in your Julia
 
 ```julia
 julia> using Magic
+
 julia> @μ abra kadabra dimbasum far
 a (generic function with 1 methods)
 
