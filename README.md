@@ -13,7 +13,7 @@ a (generic function with 1 methods)
 julia> a(4)
 256
 
-julia> @μ ᚨᛒᚱᚨ ᚲᚨᛞᚨᛒᚱᚨ ᛞᛁᛗᛒᚨᛋᚢᛗ ᚠᚨᚱ
+julia> @ᛗ ᚨᛒᚱᚨ ᚲᚨᛞᚨᛒᚱᚨ ᛞᛁᛗᛒᚨᛋᚢᛗ ᚠᚨᚱ
 ᚨ (generic function with 1 method)
 
 julia> ᚨ(4)
